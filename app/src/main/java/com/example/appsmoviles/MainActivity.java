@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView myrv = findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this,listaComida);
         myrv.setLayoutManager(new GridLayoutManager(this,2));
+
         myrv.setAdapter(myAdapter);
 
         //Acá detecto si toca el botón para ir a la actividad2
