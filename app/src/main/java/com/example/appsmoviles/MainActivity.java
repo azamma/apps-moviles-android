@@ -18,14 +18,11 @@ public class MainActivity extends AppCompatActivity {
     //Declaro la lista que va a contener las comidas
     ArrayList<Comida> listaComida;
 
-    Button punto2Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        punto2Btn = findViewById(R.id.actividad2);
 
         //Instancio la lista vacía
         listaComida = new ArrayList<>();
@@ -44,15 +41,6 @@ public class MainActivity extends AppCompatActivity {
         myrv.setLayoutManager(new GridLayoutManager(this,2));
 
         myrv.setAdapter(myAdapter);
-
-        //Acá detecto si toca el botón para ir a la actividad2
-        punto2Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Piramide.class);
-                getApplicationContext().startActivity(intent);
-            }
-        });
 
     }
 }
