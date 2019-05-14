@@ -8,7 +8,7 @@
 
 
     <LinearLayout
-        android:id="@+id/barra"
+        android:id="@+id/barra2"
         android:layout_width="685dp"
         android:layout_height="80dp"
         android:background="@color/cardview_light_background"
@@ -39,7 +39,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra"
+        app:layout_constraintTop_toBottomOf="@+id/barra2"
         app:srcCompat="@color/cardview_dark_background" />
 
     <TextView
@@ -65,7 +65,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imagen_detalle"
-        app:layout_constraintTop_toBottomOf="@+id/barra" />
+        app:layout_constraintTop_toBottomOf="@+id/barra2" />
 
     <TextView
         android:id="@+id/hidratos_titulo"

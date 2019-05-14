@@ -9,12 +9,11 @@
 
     <LinearLayout
         android:id="@+id/barra2"
-        android:layout_width="477dp"
-        android:layout_height="80dp"
+        android:layout_width="673dp"
+        android:layout_height="101dp"
         android:background="@color/cardview_light_background"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
     <TextView

@@ -1,5 +1,6 @@
 package com.example.appsmoviles;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -48,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         punto2Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"En desarrollo", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(),Piramide.class);
+                getApplicationContext().startActivity(intent);
             }
         });
 
